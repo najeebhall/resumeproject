@@ -1,0 +1,27 @@
+h1 {
+	border-bottom: 1px solid black; 
+	font-size: 60px;
+	font-weight: bold;
+}
+
+#description{
+	width: 400px;
+}
+
+h3{
+	float: left;
+	padding-right: 50px;
+	height: 50px;
+	width: 90px;
+	padding-left: 80px;
+	border-right: thin solid black;
+}
+
+#skills{
+	width: 90px;
+	height: 180px;
+}
+
+ul{
+	list-style: none;
+}
