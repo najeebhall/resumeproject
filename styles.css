@@ -1,3 +1,15 @@
+html{
+	min-height: 1020px;
+	width: 80%;
+	background-size: 800px;
+}
+
+img{
+	position: absolute;
+	right: 0px;
+	transform: rotate(-2deg);
+}
+
 h1 {
 	border-bottom: 1px solid black; 
 	font-size: 60px;
@@ -8,13 +20,21 @@ h1 {
 	width: 400px;
 }
 
+h2{
+	font-size: 25px;
+	
+}
+
 h3{
 	float: left;
+	text-align: right;
 	padding-right: 50px;
-	height: 50px;
+	height: 70px;
 	width: 90px;
 	padding-left: 80px;
+	padding-top: 20px;
 	border-right: thin solid black;
+
 }
 
 #skills{
@@ -24,4 +44,12 @@ h3{
 
 ul{
 	list-style: none;
+	padding-top: 12px;
+	padding-left: 250px;
 }
+
+#employment{
+	list-style-type: disc; 
+}
+
+
