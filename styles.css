@@ -1,13 +1,24 @@
 html{
 	min-height: 1020px;
 	width: 80%;
-	background-size: 800px;
+}
+
+body{
+	min-width: 800px;
+	max-width: 900px;
+	margin-right: 200px;
+	margin-left: 200px;
+	background-size: 50px 60px;
+	background: rgba(128,128,128, 0.5);
+	background-repeat: no-repeat;
 }
 
 img{
-	position: absolute;
+	position: relative;
+	float: right;
 	right: 0px;
 	transform: rotate(-2deg);
+	top: -80px;
 }
 
 h1 {
